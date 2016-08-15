@@ -30,6 +30,7 @@ public class IO {
     public static Integer readLineAsInteger() {
         return Integer.parseInt(readLine());
     }
+    
 
     public static void printLine(Object value) {
         System.out.println(value);

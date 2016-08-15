@@ -178,10 +178,10 @@ public class Solution implements Runnable {
                                                            for(int r2=0; r2<rowNum; r2++){
                                                                 if(data[tab1][r1][col1] == data[tab2][r2][col2]){
                                                                    for(int col3=0; col3<colNum; col3++){
-                                                                       System.out.printf("%.0f\t", data[tab1][r1][col3]);
+                                                                       System.out.printf("%.0f  ", data[tab1][r1][col3]);
                                                                    }
                                                                    for(int col3=0; col3<colNum; col3++){
-                                                                        System.out.printf("%.0f\t", data[tab2][r2][col3]);
+                                                                        System.out.printf("%.0f  ", data[tab2][r2][col3]);
                                                                    }
                                                                 }
                                                             }
@@ -212,19 +212,19 @@ public class Solution implements Runnable {
                                                                 if(data[tab1][r1][col1] == data[tab2][r2][col2]){
                                                                    for(int col3=0; col3<colNum; col3++){
                                                                        if(word[1].equals("*")){
-                                                                            System.out.printf("%.0f\t", data[tab1][r1][col3]);
+                                                                            System.out.printf("%.0f  ", data[tab1][r1][col3]);
                                                                        }else{
                                                                             if(colName[tab1][col3].equals(dum_column[tab1][col3]))
-                                                                             System.out.printf("%.0f\t", data[tab1][r1][col3]);
+                                                                             System.out.printf("%.0f   ", data[tab1][r1][col3]);
                                                                        }
                                                                       
                                                                    }
                                                                    for(int col3=0; col3<colNum; col3++){
                                                                        if(word[1].equals("*")){
-                                                                        System.out.printf("%.0f\t", data[tab2][r2][col3]);
+                                                                        System.out.printf("%.0f  ", data[tab2][r2][col3]);
                                                                        }else{
                                                                            if(colName[tab2][col3].equals(dum_column[tab2][col3]))
-                                                                           System.out.printf("%.0f\t", data[tab2][r2][col3]);
+                                                                           System.out.printf("%.0f  ", data[tab2][r2][col3]);
                                                                        }
                                                                    }
                                                                 }

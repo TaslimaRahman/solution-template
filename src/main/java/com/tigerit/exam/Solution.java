@@ -185,8 +185,8 @@ public class Solution implements Runnable {
                                                                         System.out.printf("%.0f ", data[a][tab2][r2][col3]);
                                                                    }
                                                                 }
-                                                            }
-                                                        }System.out.print("\n");
+                                                            }System.out.print("\n");
+                                                        }
                                                     }
                                                    }
                                                 }
